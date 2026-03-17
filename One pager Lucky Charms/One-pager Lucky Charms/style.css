@@ -1,20 +1,6 @@
 @charset "utf-8";
 
-/* ==========================================================================
-   Lucky Charms — Social Digital Innovation
-   
-   Aesthetic: Refined Corporate Editorial
-   Palette:
-     --purple:    #6257B3   (primary)
-     --purple-d:  #4A4096   (deep)
-     --purple-l:  #6F63C4   (light)
-     --orange:    #FF4B0A   (accent)
-     --orange-l:  #FF6D3A   (accent hover)
-     --slate:     #3D3D50   (body text)
-     --muted:     #6B6B80   (secondary text)
-     --surface:   #F5F4F8   (cards / bg)
-     --border:    #E8E6F0   (subtle lines)
-   ========================================================================== */
+
 
 :root {
     --purple: #6257B3;
