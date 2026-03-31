@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Charms — Social Digital Innovation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="#home" class="nav-logo">
+                <img src="images/logo.png" alt="Lucky Charms logo" class="nav-logo-img">
+                <span>Lucky Charms</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#team">Wie zijn wij?</a></li>
+                <li><a href="#sprint0">Sprint 0</a></li>
+                <li><a href="#sprint2">Meest Recente Sprint</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header id="home" class="hero">
+        <div class="hero-media">
+            <img src="images/header_image.jpeg" alt="Team Lucky Charms" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-tag">Social Digital Innovation — Hogeschool Rotterdam</p>
+            <h1 class="hero-title">Lucky Charms</h1>
+            <div class="hero-cycle-wrap">
+                <span class="hero-cycle-text">Samen werken aan digitale oplossingen voor laaggeletterdheid</span>
+                <span class="hero-cycle-text">Onderzoek, ontwerp en ontwikkeling met impact</span>
+                <span class="hero-cycle-text">Where Charms get Lucky</span>
+            </div>
+            <a href="#team" class="hero-arrow" aria-label="Scroll naar beneden">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg>
+            </a>
+        </div>
+    </header>
+
+    <!-- Team Section -->
+    <section id="team">
+        <div class="section-header">
+            <span class="section-label">Het team</span>
+            <h2>Wie zijn wij?</h2>
+            <p class="section-intro">Zes studenten van verschillende opleidingen, verenigd in één missie: digitale innovatie met maatschappelijke impact.</p>
+        </div>
+
+        <div class="team-grid">
+            <article class="member-card">
+                <div class="member-img-wrap">
+                    <img src="images/Aziza.jpeg" alt="Aziza" class="member-img">
+                </div>
+                <div class="member-body">
+                    <h3>Aziza</h3>
+                    <span class="member-tag">CMD</span>
+                    <p>Onderzoek en communicatie door ontwerp.</p>
+                </div>
+            </article>
+            <article class="member-card">
+                <div class="member-img-wrap">
+                    <img src="images/dieuwe.JPG" alt="Dieuwe" class="member-img">
+                </div>
+                <div class="member-body">
+                    <h3>Dieuwe</h3>
+                    <span class="member-tag">CMGT</span>
+                    <p>Onderzoek, ontwerp en ontwikkeling van websites, apps &amp; games.</p>
+                </div>
+            </article>
+            <article class="member-card">
+                <div class="member-img-wrap">
+                    <img src="images/Dusan.jpeg" alt="Dusan" class="member-img">
+                </div>
+                <div class="member-body">
+                    <h3>Dusan</h3>
+                    <span class="member-tag">ADS&amp;AI</span>
+                    <p>Verwerken en analyseren van data.</p>
+                </div>
+            </article>
+            <article class="member-card">
+                <div class="member-img-wrap">
+                    <img src="images/Jorge.jpg" alt="Jorge" class="member-img">
+                </div>
+                <div class="member-body">
+                    <h3>Jorge</h3>
+                    <span class="member-tag">TI</span>
+                    <p>Ontwikkeling van embedded systems, full-stack.</p>
+                </div>
+            </article>
+            <article class="member-card">
+                <div class="member-img-wrap">
+                    <img src="images/renee.jpeg" alt="Renee" class="member-img">
+                </div>
+                <div class="member-body">
+                    <h3>Renee</h3>
+                    <span class="member-tag">CO</span>
+                    <p>Onderzoek en communicatie.</p>
+                </div>
+            </article>
+            <article class="member-card">
+                <div class="member-img-wrap">
+                    <img src="images/Yavuz.png" alt="Yavuz" class="member-img">
+                </div>
+                <div class="member-body">
+                    <h3>Yavuz</h3>
+                    <span class="member-tag">INF</span>
+                    <p>Ontwikkeling back-end applicaties.</p>
+                </div>
+            </article>
+        </div>
+
+        <!-- Team Photo + Values -->
+        <div class="values-section">
+            <div class="values-photo-wrap">
+                <img src="images/schaatsfoto.jpeg" alt="Team Lucky Charms samen" class="values-photo">
+            </div>
+            <div class="values-list">
+                <h3>Onze kernwaarden</h3>
+                <div class="value-row">
+                    <div class="value-icon-wrap"><img src="images/privacy.png" alt="" class="value-icon"></div>
+                    <div>
+                        <h4>Privacy</h4>
+                        <p>Data minimalisatie, zo min mogelijk data opslaan, en daarvan zo veel mogelijk lokaal en niet in een database. Nadenken over welke data we echt nodig hebben, en welke data gevoelig is.</p>
+                    </div>
+                </div>
+                <div class="value-row">
+                    <div class="value-icon-wrap"><img src="images/Inclusitvity.png" alt="" class="value-icon"></div>
+                    <div>
+                        <h4>Inclusiviteit</h4>
+                        <p>Dit willen we toepassen door zo goed mogelijk onze doelgroep te onderzoeken en te leren kennen, en de inzichten die we daar uit halen toe te passen in ons project. Daarnaast zullen we ook meer algemene toegankelijkheids onderdelen toepassen, zoals kleurenblind en dyslexie vriendelijk in onze ontwerpen.</p>
+                    </div>
+                </div>
+                <div class="value-row">
+                    <div class="value-icon-wrap"><img src="images/Verantwoordelijk.png" alt="" class="value-icon"></div>
+                    <div>
+                        <h4>Verantwoordelijk</h4>
+                        <p>Door daily stand-ups te doen en een samencontract samen te stellen, stellen wij ons allemaal verantwoordelijk voor het bijdragen aan het project. Ook gaan wij verantwoordelijk om met kwetsbare informatie.</p>
+                    </div>
+                </div>
+                <div class="value-row">
+                    <div class="value-icon-wrap"><img src="images/gelijkwaardigdheid.png" alt="" class="value-icon"></div>
+                    <div>
+                        <h4>Gelijkwaardigheid</h4>
+                        <p>Door onderzoek te doen naar de doelgroep en hun context beter te leren begrijpen, willen wij bias voorkomen en iedere stakeholder als gelijkwaardige te zien. Ook verdelen wij de taken onderling, zodat wij echt als team samenwerken.</p>
+                    </div>
+                </div>
+                <div class="value-row">
+                    <div class="value-icon-wrap"><img src="images/eerlijkheid.png" alt="" class="value-icon"></div>
+                    <div>
+                        <h4>Eerlijkheid</h4>
+                        <p>Door onze bevindingen tijdens het onderzoek en testen en helder en transparant neer te zetten, willen wij eerlijk zijn tegenover onze praktijkpartners en ook alle betrokkenen tijdens dit project.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sprint 0 -->
+    <section id="sprint0" class="sprint-section">
+        <div class="section-header">
+            <span class="section-label">Sprint 0</span>
+            <h2>Onderzoek &amp; Ontwerp</h2>
+        </div>
+
+        <div class="sprint-cards">
+            <div class="sprint-card">
+                <div class="sprint-card-number">01</div>
+                <h3>Onderzoek en ontwerpvraag</h3>
+                <p>Tijdens de hackathon gingen wij in korte tijd onderzoek doen naar laaggeletterden. Hieruit bleek dat de kans groter is om zelf laaggeletterd te worden, als je ouders ook laaggeletterd zijn. Met deze informatie vormde wij onze eerste ontwerpvraag.</p>
+            </div>
+            <div class="sprint-card">
+                <div class="sprint-card-number">02</div>
+                <h3>Brainstorm en prototypen</h3>
+                <p>Na een brainstormsessie (met behulp van de Crazy 8-methode) kwamen we op het idee om een kaartspel te ontwerpen. In dit kaartspel krijgen de deelnemers elk een letter en moeten ze in tijdschriften en boeken woorden opzoeken die met die letter beginnen. Degene die een woord vindt dat niet overeenkomt met de woorden van de andere deelnemers, wint een punt.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Situatie -->
+    <section id="situatie">
+        <div class="section-header">
+            <span class="section-label">Context</span>
+            <h2>De situatie</h2>
+        </div>
+
+        <div class="situatie-grid">
+            <div class="situatie-text">
+                <h3>Huidige situatie</h3>
+                <p>De doelgroep is laaggeletterde ouders van basisschoolleerlingen. Zij hebben te maken met beperkte lees en schrijfvaardigheden. Dit kan gevolg hebben dat hun kinderen ook moeite kunnen krijgen met taalvaardigheden.</p>
+                <p>Problemen waar de ouders tegenaan kunnen lopen zijn onder andere: De communicatie vanuit de school verloopt deels via brieven. Hierdoor kan het zijn dat ouders niet altijd begrijpen wat er gaande is op school. Scholen maken ook gebruik van externe systemen, zoals een digitaal ouderportaal en een schoolapp. Ook dit kan een hoge drempel vormen voor de ouders, om betrokken te blijven bij de vooruitgang van hun kind.</p>
+                <p>Doordat ouders noodgedwongen op afstand blijven, mist de leerling ondersteuning in de thuisomgeving. Daarnaast lezen de ouders een stuk minder voor aan hun kinderen en zingen zij minder liedjes. Onderzoek laat zien dat dit cruciaal is voor de ontwikkeling van de taalvaardigheid van het kind. Gevolg is dan een verhoogd risico op laaggeletterdheid bij het kind, maar ook het buitengesloten voelen van de ouders.</p>
+            </div>
+
+            <div class="situatie-image">
+                <img src="images/huidigesituatie.png" alt="Illustratie huidige situatie">
+            </div>
+
+            <div class="situatie-image">
+                <img src="images/gewenstesituatie.png" alt="Illustratie gewenste situatie">
+            </div>
+
+            <div class="situatie-text">
+                <h3>Gewenste situatie</h3>
+                <p>Ouders voelen zich zelfverzekerd genoeg in hun eigen kunnen. Beperkte taalvaardigheden vormen geen belemmering meer om actief contact te zoeken met de school. Leerkrachten en medewerkers kunnen de ouders goed ondersteunen.</p>
+                <p>De ouders kunnen brieven van de school in grote lijnen begrijpen. Wanneer zij iets niet volledig begrijpen, voelen ze zich zelfverzekerd om de leerkracht om verheldering te vragen. Er is sprake van open communicatie waarbij de leerkracht hen effectief kan ondersteunen.</p>
+                <p>De ouders creëren thuis een stimulerende taalomgeving. Ze kunnen hun kind in grote lijnen ondersteunen bij de taalontwikkeling. Hierdoor wordt de kans op het overdragen van laaggeletterdheid verlaagd.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conclusie -->
+    <section id="conclusie" class="conclusion-section">
+        <div class="conclusion-card">
+            <span class="section-label">Vervolgstappen</span>
+            <h2>Conclusie</h2>
+            <p>Na de Hackathon en in combinatie met de interviews met praktijkpartners, hebben we besloten om ons te richten op laaggeletterde ouders. Wel houden we er rekening mee dat dit een doelgroep kan zijn dat vrij moeilijk te bereiken is.</p>
+            <p>Daarom richten wij ons in Sprint 1 op om de doelgroep beter te leren kennen door middel van deskresearch en ook om de mogelijkheden qua technologieën verder te onderzoeken.</p>
+        </div>
+    </section>
+
+    <!-- Sprint 1 -->
+    <section id="sprint1" class="sprint-section">
+        <div class="section-header">
+            <span class="section-label">Sprint 1</span>
+            <h2>Deskresearch &amp; Doelgroep</h2>
+        </div>
+    </section>
+
+    <!-- Onze aanpak -->
+    <section id="aanpak" class="conclusion-section">
+        <div class="conclusion-card">
+            <h2>Aanpak</h2>
+            <p>Om deze sprint erachter te komen hoe we laaggeletterde ouders beter kunnen begrijpen, of we ons op hen of hun kinderen richten, en welke aanpak en technieken het meest geschikt zijn, hebben we het volgende uitgevoerd:</p>
+            <ul>
+                <li><b>Deskresearch</b> naar de doelgroep en de stakeholders</li>
+                <li>Een <b>semigestructureerde</b> interview met R van der Vlis vanuit Stichting Lezen en Schrijven</li>
+                <li>Gekeken naar mogelijkheden in <b>data-analyse</b></li>
+                <li>Onze tot nu toe opgedane inzichten <b>visualiseren</b></li>
+            </ul>
+        </div>
+    </section>
+
+        <!-- Personas -->
+    <section id="personas" class="conclusion-section">
+        <div class="conclusion-card">
+            
+            <span class="section-label"></span>
+            <h2> Persona's</h2>
+            <p>Laaggeletterdheid speelt zich <b>niet</b> alleen af bij <b>1 persoon</b> maar heeft invloed op het <b>hele gezin</b>. Om dat zichtbaar te maken, hebben we persona's gemaakt van twee ouders en een kind</p>
+            <div class="insight-grid">
+            <div class="persona-img"><div><img src="images/persona1.png" class="kowalski"></div></div>
+            <div class="persona-img"><div><img src="images/persona2.png" class="kowalski"></div></div>
+            </div>
+            <div class="insight-grid-last">
+            <div class="persona-img"><div><img src="images/persona3.png" class="kowalski"></div></div>
+        </div>
+    </section>
+
+        <!-- Insight Cards -->
+    <section id="insights" class="conclusion-section">
+        <div class="conclusion-card">
+            <span class="section-label"></span>
+            <h2>Insight Cards</h2>
+            <p>Uit ons onderzoek kwamen <b>verschillende inzichten</b> naar voren. In deze insight cards hebben we de belangrijkste gebundeld om beter te <b>begrijpen</b> wat er speelt bij de doelgroep.</p>
+            <div class="insight-grid">
+            <div class="insight-img"><div><img src="images/StatementCard1.png" alt="Insight Card 1"></div></div>
+            <div class="insight-img"><div><img src="images/StatementCard2.png" alt="Insight Card 2"></div></div>
+            <div class="insight-img"><div><img src="images/StatementCard3.png" alt="Insight Card 3"></div></div>
+            <div class="insight-img"><div><img src="images/StatementCard4.png" alt="Insight Card 4"></div></div>
+            </div>
+            <div class="insight-grid-last">
+            <div class="insight-img"><div><img src="images/StatementCard5.png" alt="Insight Card 5"></div></div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">×</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+
+        <!-- Data analyse -->
+    <section id="conclusie" class="conclusion-section">
+        <div class="conclusion-card">
+            <h2>Data-Analyse</h2>
+            <p>Voor grootschaalse data analyses zijn er verschillende mogelijkheden. 
+                We kunnen bijvoorbeeld data vinden bij de <b>CBS</b> of de <b>wijkprofiel van Gemeente Rotterdam</b>. 
+                Ook hebben we een aantal bronnen gekregen tijdens onze interview met een van onze partners waar we nog verder op in willen duiken. 
+                Dit allemaal om een grondige data analyse uit te voeren in sprint 2.</p>
+                <p>
+                Een van de <b>valkuilen</b> waar we tegenaan kunnen lopen is dat het mogelijk is tijdens het vergaren van de data dat een deel <b>niet voor ons toegankelijk is</b>. 
+                Ook can het zo zijn dat we misschien <b>niet nieuwe inzichten</b> kunnen vergaren uit de data, maar dat we het meer kunnen gebruiken om onze <b>bestaande inzichten te onderbouwen</b>.
+            </p>
+        </div>
+    </section>
+
+        <!-- Conclusie en vervolgstappen -->
+    <section id="conclusie" class="conclusion-section">
+        <div class="conclusion-card">
+            <h2>Conclusie</h2>
+            <p>Tijdens het onderzoek kwamen ook andere interessante inzichten naar voren. Zo zijn er <b>duidelijke verschillen</b> binnen de doelgroep: voor migranten die in hun land van herkomst ook laaggeletterd waren, is de stap vaak nog <b>groter en uitdagender</b>. Daarnaast blijkt dat <b>herhaling en oefening</b> erg belangrijk zijn, omdat iets tijdens een les wel kan lukken, maar thuis niet altijd. Voor nu blijven wij ons richten op ouders met laaggeletterdheid, maar we zien ook dat deze doelgroep in <b>samenhang</b> is met hun kinderen.</p>
+            <h2>Vervolgstappen</h2>
+            <p>In de volgende sprint willen we de <b>lopende interventies</b> beter <b>begrijpen</b>, indien mogelijk  in contact komen met de doelgroep bij events, brainstormen over ideeën, en deze eerste concepten in eenvoudige <b>prototypes</b> verkennen.</p>
+        </div>
+    </section>
+
+    <!-- Sprint 2 -->
+    <section id="sprint2" class="sprint-section">
+        <div class="section-header">
+            <span class="section-label">Sprint 2</span>
+        </div>
+
+        <div class="conclusion-card">
+            <h2>Inzichten &amp; Bereik</h2>
+            <p>Voor verdere fieldresearch hebben we contact opgenomen met medewerkers van de bibliotheek en de gemeente die zich bezighouden met het onderwerp taal en bijbehorende evenementen.</p>
+            <div class="insight-grid">
+                <div class="insight-img"><img src="images/Inzichten_bibliotheek.png" alt="Inzichten bibliotheek"></div>
+                <div class="insight-img"><img src="images/Inzichten_gemeente.png" alt="Inzichten gemeente"></div>
+            </div>
+        </div>
+
+        <div style="margin-top: 2rem;"></div>
+
+        <div class="conclusion-card">
+            <h2>Brainstormsessie</h2>
+            <p>Tijdens onze brainstormsessie wilden we ideeën bedenken voor een prototype. Hiervoor gebruikten we twee methodes: negatief brainstormen en de round robin.</p>
+            <div class="insight-grid">
+                <div class="insight-img"><img src="images/Negatiefbrainstormen_plaatje.png" alt="Negatief brainstormen"></div>
+                <div class="insight-img"><img src="images/Roundrobin_plaatje.png" alt="Round robin"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inzicht: WOM -->
+    <section class="conclusion-section">
+        <div class="conclusion-card">
+            <span class="section-label">Sleutelinzicht</span>
+            <h2>Word of Mouth</h2>
+            <p>Persoonlijke aanbevelingen van buurtgenoten of vrienden en een <strong>'warme overdracht'</strong> — waarbij iemand actief wordt doorverwezen door een vertrouwd persoon — werken tien keer beter dan traditionele marketing of flyers.</p>
+            <p>Dit betekent dat onze oplossing moet aansluiten op bestaande sociale netwerken in de wijk. Niet van buiten naar binnen, maar van binnen uit de gemeenschap.</p>
+        </div>
+    </section>
+
+            <!-- Brainstorming -->
+            <!-- Convergeren -->
+
+<!-- Situatie -->
+    <section id="cocd-box">
+        <div class="situatie-grid">
+            <div class="situatie-text">
+                <h3>Convergeren</h3>
+                <p>Na het verzamelen van ideeën tijdens het brainstromen, is het tijd om te <b>convergeren</b>.</p>
+            </div>
+
+            <div class="situatie-image">
+                <img src="images/cocdbox.png" alt="Illustratie huidige situatie">
+            </div>
+
+
+        </div>
+    </section>
+
+            <!-- Prototype Concept -->
+    <section class="conclusion-section">
+        <div class="conclusion-card">
+            <h2>Prototype Concept</h2>
+            <p>Voorlezen is cruciaal voor de taalontwikkeling, maar voor laaggeletterde ouders vormt dit vaak een grote drempel. Daarom ontwikkelde Team Lucky Charms een interactief sprookjesboek met ingebouwde audio. Deze slimme ondersteuning helpt ouders op weg als ze vastlopen, waardoor ze vol zelfvertrouwen en zonder schaamte kunnen voorlezen. Zo versterken we de band tussen ouder en kind én stimuleren we de taalontwikkeling in de thuisomgeving. In de komende sprint optimaliseren we dit prototype verder samen met onze doelgroep.</p>
+            <img src="images/COPD_Brainstorm.png" alt="COPD Brainstorm convergeren" style="width: 55%; border-radius: var(--radius); margin-top: 1.5rem; margin-left: auto; margin-right: auto;">
+        </div>
+    </section>
+
+
+            <!-- Technical Insight Cards -->
+    <section id="technicalinsights" class="conclusion-section">
+        <div class="conclusion-card">
+            <span class="section-label"></span>
+            <h2>Technical Insight Cards</h2>
+            <p>Na het bedenken van het <b>prototype concept</b> zijn we gaan nadenken over de technische uitdagingen en mogelijkheden.</p>
+            <div class="insight-grid">
+            <div class="insight-img"><div><img src="images/technicalinsight/techinsight1.png" alt="Insight Card 1"></div></div>
+            <div class="insight-img"><div><img src="images/technicalinsight/techinsight2.png" alt="Insight Card 2"></div></div>
+            <div class="insight-img"><div><img src="images/technicalinsight/techinsight3.png" alt="Insight Card 3"></div></div>
+            <div class="insight-img"><div><img src="images/technicalinsight/techinsight4.png" alt="Insight Card 4"></div></div>
+            </div>
+        </div>
+    </section>
+
+                <!-- Technical Conclusion -->
+
+
+    <!-- Conclusie Sprint 2 -->
+    <section class="conclusion-section">
+        <div class="conclusion-card">
+            <span class="section-label">Vervolgstappen</span>
+            <h2>Conclusie</h2>
+            <p>De inzichten uit Sprint 2 bevestigen dat <strong>bereikbaarheid en vertrouwen</strong> de centrale thema's zijn. De doelgroep bereik je niet via traditionele kanalen, maar via mensen die ze al kennen. Intrinsieke motivatie blijft een uitdaging voor zowel bibliotheek als gemeentes: hoe komen volwassenen vrijwillig naar de lessen?</p>
+            <p>In de volgende sprint richten we ons op het vertalen van deze inzichten naar <strong>concrete ontwerpkeuzes</strong>. Hoe integreren we de WOM-aanpak en de warme overdracht in ons concept? En hoe betrekken we ouder én kind samen actief bij de taalontwikkeling?</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="images/logo.png" alt="Lucky Charms" class="footer-logo">
+                <span>Lucky Charms</span>
+            </div>
+            <div class="footer-contact">
+                <p>Contactpersoon: <strong>Aziza</strong></p>
+                <a href="mailto:0861023@hr.nl">0861023@hr.nl</a>
+            </div>
+            <p class="footer-copy">&copy; 2025 Lucky Charms — Social Digital Innovation</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
